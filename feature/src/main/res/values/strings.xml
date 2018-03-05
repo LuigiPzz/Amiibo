@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="characters">Characters</string>
+    <string name="cards">Cards</string>
+    <string name="amiibo_logo">Amiibo Logo</string>
+    <string name="version">v.0.0.1</string>
+
+
+</resources>
