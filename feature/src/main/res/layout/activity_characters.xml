@@ -1,54 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="top"
-    android:orientation="vertical"
-    tools:context="com.collection.amiibo.feature.CharactersActivity"
-    android:weightSum="100"
-    android:padding="30dp">
+    android:gravity="start"
+    android:padding="0dp"
+    tools:context="com.collection.amiibo.feature.CharactersActivity">
 
 
-    <ImageView
-        android:id="@+id/imageView43"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginBottom="105dp"
-        android:layout_marginEnd="37dp"
-        android:contentDescription="TODO"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_launcher_background"
-        android:weightSum="32"/>
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/gallery"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/imageView42"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="8dp"
-        android:contentDescription="TODO"
-        app:layout_constraintStart_toEndOf="@+id/imageView43"
-        app:srcCompat="@drawable/ic_launcher_background"
-        android:weightSum="32"/>
-
-    <ImageView
-        android:id="@+id/imageView44"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="8dp"
-        android:contentDescription="TODO"
-        app:layout_constraintStart_toEndOf="@+id/imageView42"
-        app:srcCompat="@drawable/ic_launcher_background"
-        android:weightSum="32"/>
+</android.support.v7.widget.RecyclerView>
 
 
 
-</android.support.constraint.ConstraintLayout>
+
+
+
+</RelativeLayout>

@@ -3,10 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Amiibo.iml" filepath="$PROJECT_DIR$/Amiibo.iml" />
+      <module fileurl="file://C:\Users\luigi.pozzi\AndroidStudioProjects\Amiibo\Amiibo.iml" filepath="C:\Users\luigi.pozzi\AndroidStudioProjects\Amiibo\Amiibo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\luigi.pozzi\AndroidStudioProjects\Amiibo\app\app.iml" filepath="C:\Users\luigi.pozzi\AndroidStudioProjects\Amiibo\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/base/base.iml" filepath="$PROJECT_DIR$/base/base.iml" />
+      <module fileurl="file://C:\Users\luigi.pozzi\AndroidStudioProjects\Amiibo\base\base.iml" filepath="C:\Users\luigi.pozzi\AndroidStudioProjects\Amiibo\base\base.iml" />
       <module fileurl="file://$PROJECT_DIR$/feature/feature.iml" filepath="$PROJECT_DIR$/feature/feature.iml" />
+      <module fileurl="file://C:\Users\luigi.pozzi\AndroidStudioProjects\Amiibo\feature\feature.iml" filepath="C:\Users\luigi.pozzi\AndroidStudioProjects\Amiibo\feature\feature.iml" />
       <module fileurl="file://$PROJECT_DIR$/instantapp/instantapp.iml" filepath="$PROJECT_DIR$/instantapp/instantapp.iml" />
+      <module fileurl="file://C:\Users\luigi.pozzi\AndroidStudioProjects\Amiibo\instantapp\instantapp.iml" filepath="C:\Users\luigi.pozzi\AndroidStudioProjects\Amiibo\instantapp\instantapp.iml" />
     </modules>
   </component>
 </project>

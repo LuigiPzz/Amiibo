@@ -27,4 +27,7 @@ android {
 dependencies {
     implementation project(':feature')
     implementation project(':base')
+    implementation 'com.android.support:recyclerview-v7:26.1.0'
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support:support-v4:26.1.0'
 }
