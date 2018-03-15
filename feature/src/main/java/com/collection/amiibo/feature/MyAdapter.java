@@ -20,7 +20,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
     private ArrayList<Cell> galleryList;
     private Context context;
 
-    public MyAdapter (Context context, ArrayList<Cell> galleryList){
+    MyAdapter(Context context, ArrayList<Cell> galleryList){
         this.galleryList = galleryList;
         this.context = context;
     }
@@ -40,7 +40,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
             @Override
             public void onClick(View view){
                 Toast.makeText(context, "Image"+galleryList.get(i).getTitle(), Toast.LENGTH_SHORT).show();
-            };
+            }
         });
     }
 
@@ -49,13 +49,13 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
         return galleryList.size();
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder{
+    class ViewHolder extends RecyclerView.ViewHolder{
         private TextView title;
         private ImageView img;
-        public ViewHolder (View view){
+        ViewHolder(View view){
             super(view);
-            title = (TextView) view.findViewById(R.id.title);
-            img = (ImageView) view.findViewById(R.id.img);
+            title = view.findViewById(R.id.title);
+            img = view.findViewById(R.id.img);
         }
     }
 }

@@ -18,11 +18,11 @@ public class Cell {
         this.title = title;
     }
 
-    public Integer getImg() {
+    Integer getImg() {
         return img;
     }
 
-    public void setImg(Integer img) {
+    void setImg(Integer img) {
         this.img = img;
     }
 
