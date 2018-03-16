@@ -15,16 +15,21 @@ public class CharactersActivity extends AppCompatActivity {
             "img3",
             "img4",
             "img5",
-            "img6"
+            "img6",
+            "img7",
+            "img8"
     };
 
     private final Integer imagge_ids[]={
-            R.drawable.image1,
-            R.drawable.image2,
-            R.drawable.image3,
-            R.drawable.image4,
-            R.drawable.image5,
-            R.drawable.image6
+            R.drawable.sm_luigistandardedition,
+            R.drawable.sm_mariostandardedition,
+            R.drawable.sm_supertoad,
+            R.drawable.sm_donkeykong,
+            R.drawable.sm_superwario,
+
+            R.drawable.od_bowserweddingoutfit,
+            R.drawable.od_marioweddingoutfit,
+            R.drawable.od_peachweddingoutfit
     };
 
     @Override
