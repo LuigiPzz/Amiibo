@@ -12,7 +12,6 @@
         android:layout_width="wrap_content"
         android:contentDescription="@string/amiibo_name"
         android:layout_height="wrap_content"
-        android:background="#ffff00"
         android:scaleType="fitCenter"
         android:adjustViewBounds="true"/>
 

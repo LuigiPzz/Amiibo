@@ -17,15 +17,33 @@ public class CharactersActivity extends AppCompatActivity {
             "img5",
             "img6",
             "img7",
-            "img8"
+            "img8",
+            "img9",
+            "img10",
+            "img11",
+            "img12",
+            "img13",
+            "img14",
+            "img15"
+
     };
 
     private final Integer imagge_ids[]={
             R.drawable.sm_luigistandardedition,
             R.drawable.sm_mariostandardedition,
             R.drawable.sm_supertoad,
+            R.drawable.sm_boo,
             R.drawable.sm_donkeykong,
             R.drawable.sm_superwario,
+
+            R.drawable.sm30th_mariomodern8bit,
+
+            R.drawable.loz_link8bit,
+
+            R.drawable.sp_inklingboyblue,
+            R.drawable.sp_inklingboygreen,
+            R.drawable.sp_inklinggirlpink,
+            R.drawable.sp_inklingpurple,
 
             R.drawable.od_bowserweddingoutfit,
             R.drawable.od_marioweddingoutfit,
@@ -40,7 +58,7 @@ public class CharactersActivity extends AppCompatActivity {
         RecyclerView recyclerView = findViewById(R.id.gallery);
         recyclerView.setHasFixedSize(true);
 
-        RecyclerView.LayoutManager layoutManager = new GridLayoutManager(getApplicationContext(),3);
+        RecyclerView.LayoutManager layoutManager = new GridLayoutManager(getApplicationContext(),4);
         recyclerView.setLayoutManager(layoutManager);
 
         ArrayList<Cell> cells = prepareData();
