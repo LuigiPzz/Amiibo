@@ -9,32 +9,77 @@ import java.util.ArrayList;
 
 public class CharactersActivity extends AppCompatActivity {
 
-    private final String image_titles[]={
-            "img1",
-            "img2",
-            "img3",
-            "img4",
-            "img5",
-            "img6",
-            "img7",
-            "img8",
-            "img9",
-            "img10",
-            "img11",
-            "img12",
-            "img13",
-            "img14",
-            "img15"
 
+    private final String image_titles[]={
+            "img1"
     };
 
+
+
+
     private final Integer imagge_ids[]={
-            R.drawable.sm_luigistandardedition,
-            R.drawable.sm_mariostandardedition,
-            R.drawable.sm_supertoad,
-            R.drawable.sm_boo,
-            R.drawable.sm_donkeykong,
-            R.drawable.sm_superwario,
+            R.drawable.inte,
+            R.drawable.inte,
+            R.drawable.inte,
+            R.drawable.inte,
+            R.drawable.sb_darkpit,
+            R.drawable.inte,
+            R.drawable.sb_donkeykong,
+            R.drawable.inte,
+            R.drawable.sb_duckhunt,
+            R.drawable.sb_falco,
+            R.drawable.sb_fox,
+            R.drawable.inte,
+            R.drawable.sb_greninja,
+            R.drawable.sb_ike,
+            R.drawable.inte,
+            R.drawable.inte,
+            R.drawable.sb_kirby,
+            R.drawable.inte,
+            R.drawable.sb_littlemac,
+            R.drawable.inte,
+            R.drawable.sb_lucas,
+            R.drawable.inte,
+            R.drawable.inte,
+            R.drawable.inte,
+            R.drawable.sb_marth,
+            R.drawable.inte,
+            R.drawable.sb_metaknight,
+            R.drawable.inte,
+            R.drawable.inte,
+            R.drawable.inte,
+            R.drawable.inte,
+            R.drawable.sb_mrgameandwatch,
+            R.drawable.sb_ness,
+            R.drawable.inte,
+            R.drawable.sb_palutena,
+            R.drawable.inte,
+            R.drawable.inte,
+            R.drawable.sb_pit,
+            R.drawable.inte,
+            R.drawable.sb_rob,
+            R.drawable.sb_robjapan,
+            R.drawable.inte,
+            R.drawable.inte,
+            R.drawable.inte,
+            R.drawable.sb_ryu,
+            R.drawable.inte,
+            R.drawable.inte,
+            R.drawable.sb_shulk,
+            R.drawable.inte,
+            R.drawable.inte,
+            R.drawable.inte,
+            R.drawable.sb_wario,
+            R.drawable.inte,
+            R.drawable.inte,
+            R.drawable.inte,
+            R.drawable.inte,
+            R.drawable.sb_bayonetta,
+            R.drawable.sb_bayonettaplayer2,
+            R.drawable.sb_cloud,
+            R.drawable.sb_cloudplayer2,
+            R.drawable.sb_corrin,
+            R.drawable.sb_corrinplayer2,
 
             R.drawable.sm30th_mariomodern8bit,
 
@@ -68,9 +113,9 @@ public class CharactersActivity extends AppCompatActivity {
 
     private ArrayList<Cell> prepareData() {
         ArrayList<Cell> theimage = new ArrayList<>();
-        for (int i = 0; i < image_titles.length; i++) {
+        for (int i = 0; i < imagge_ids.length; i++) {
             Cell cell = new Cell();
-            cell.setTitle(image_titles[i]);
+            cell.setTitle(image_titles[0]);
             cell.setImg(imagge_ids[i]);
             theimage.add(cell);
         }
