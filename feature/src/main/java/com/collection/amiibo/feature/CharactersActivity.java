@@ -92,7 +92,36 @@ public class CharactersActivity extends AppCompatActivity {
 
             R.drawable.od_bowserweddingoutfit,
             R.drawable.od_marioweddingoutfit,
-            R.drawable.od_peachweddingoutfit
+            R.drawable.od_peachweddingoutfit,
+
+            R.drawable.ac_cyrus,
+            R.drawable.ac_reese,
+            R.drawable.ac_rover,
+            R.drawable.fe_alm,
+            R.drawable.fe_celica,
+            R.drawable.fe_chrom,
+            R.drawable.fe_tiki,
+            R.drawable.loz_bokoblin,
+            R.drawable.loz_guardian,
+            R.drawable.loz_linkarcher,
+            R.drawable.loz_linkrider,
+            R.drawable.loz_linkskywardsword,
+            R.drawable.loz_linktwilightprincess,
+            R.drawable.loz_majorasmask,
+            R.drawable.loz_wolflink,
+            R.drawable.loz_zeldabreathofthewild,
+            R.drawable.mt_metroid,
+            R.drawable.mt_samusaran,
+            R.drawable.pk_pikmin,
+            R.drawable.sm_bowser,
+            R.drawable.sm_princesspeach,
+            R.drawable.sm_superwaluigi,
+            R.drawable.sm_yoshi,
+            R.drawable.sp_inklinggirlorange,
+            R.drawable.sp_inklingorange,
+            R.drawable.yww_lightblueyarnyoshi
+
+
     };
 
     @Override
